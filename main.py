@@ -8,7 +8,7 @@ import os
 
 
 def comprehendData(query):
-    response = requests.get(f"http://67.85.105.1:7058/query/?q={query}")
+    response = requests.get(f"https://api.novemberai.com/query?q={query}")
 
     response = json.loads(response.text)['response']
     return response
