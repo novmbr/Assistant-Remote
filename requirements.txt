@@ -2,3 +2,4 @@ gtts
 playsound
 SpeechRecognition
 requests
+pocketsphinx
