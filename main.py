@@ -59,6 +59,4 @@ def start_keyphrase_recognition(keyphrase_function, key_phrase):
             decoder.start_utt()
 
 
-if __name__ == "__main__":
-    # Start key phrase recognition and call the "demo_function" when triggered
-    start_keyphrase_recognition(remote.start, "november")
+start_keyphrase_recognition(remote.start, "november")
